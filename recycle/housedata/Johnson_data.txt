@@ -1,0 +1,2 @@
+Name Johnson
+Coin 8000000

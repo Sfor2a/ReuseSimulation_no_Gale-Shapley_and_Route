@@ -1,0 +1,232 @@
+Point, 大手交差点, 0, 0, 2
+Point, 淡路交差点, 0, 20, 2
+Point, 本郷交差点, -10, 40, 2
+Point, 後楽園交差点, -20, 40, 2
+Point, 飯田橋交差点, -40, 40, 2
+Point, 市ヶ谷交差点, -40, 20, 2
+Point, 九段下交差点, -20, 20, 2
+Point, 神保町交差点, -10, 20, 2
+Point, 岩本町交差点, 10, 30, 2
+Point, 上野交差点, 10, 60, 2
+Point, 蔵前交差点, 40, 30, 2
+Point, 浅草交差点, 50, 40, 2
+Point, 押上交差点, 50, 50, 2
+Point, 東日本橋交差点, 20, 20, 2
+Point, 森下交差点, 40, 20, 2
+Point, 清澄交差点, 40, 10, 2
+Point, 住吉交差点, 60, 10, 2
+Point, 門仲交差点, 40, -10, 2
+Point, 人形町交差点, 20, 10, 2
+Point, 茅場町交差点, 20, -10, 2
+Point, 月島交差点, 30, -30, 2
+Point, 三越前交差点, 10, 0, 2
+Point, 日本橋交差点, 10, -10, 2
+Point, 東銀座交差点, 10, -20, 2
+Point, 銀座交差点, 0, -20, 2
+Point, 日比谷交差点, -10, -20, 2
+Point, 霞ヶ関交差点, -20, -20, 2
+Point, 溜山交差点, -30, -20, 2
+Point, 大門交差点, -10, -40, 2
+Point, 三田交差点, -20, -50, 2
+Point, 泉岳寺交差点, -30, -60, 2
+Point, 麻布交差点, -30, -40, 2
+Point, 赤坂交差点, -40, -10, 2
+Point, 四谷交差点, -50, 0, 2
+Point, 青山交差点, -50, -20, 2
+Point, 六本木交差点, -50, -30, 2
+Point, 白高交差点, -40, -50, 2
+Point, 白銀台交差点, -50, -50, 2
+Point, 目黒交差点, -70, -50, 2
+Point, 表参道交差点, -60, -30, 2
+Point, 渋谷交差点, -70, -30, 2
+Point, 中目黒交差点, -80, -40, 2
+Point, 原宿交差点, -70, -20, 2
+Point, 新三交差点, -80, 0, 2
+Point, 東新宿交差点, -80, 10, 2
+Point, 新宿交差点, -90, 0, 2
+Point, 池袋交差点, -80, 40, 2
+Point, 小竹交差点, -110, 40, 2
+Point, 和光交差点, -130, 40, 2
+Point, 練馬交差点, -130, 30, 2
+Point, 中野交差点, -120, 20, 2
+Point, 荻窪交差点, -140, 20, 2
+Point, 都庁交差点, -100, 0, 2
+Point, 北千住交差点, 50, 70, 2
+Point, Johnson, -90, 70, 1
+Point, Eisenhower, -80, -60, 1
+Point, Kennedy, 0, -10, 1
+Point, Bush, -10, -10, 1
+Point, Roosevelt, -20, -10, 1
+Point, Reagan, -10, 0, 1
+Point, Nixson, -40, 0, 1
+Point, Taft, -20, -30, 1
+Point, Hoover, -10, -30, 1
+Point, Truman, 0, 30, 1
+Point, Ford, -20, -40, 1
+Point, Carter, 20, 60, 1
+Point, Clinton, -60, 30, 1
+Point, Obama, -30, 50, 1
+Point, Coolidge, 20, 40, 1
+Point, Adams, -60, 10, 1
+Point, Washington, 30, 10, 1
+Point, Jefferson, 30, 20, 1
+Point, Madison, -60, -10, 1
+Point, Monroe, -30, -30, 1
+Point, Jackson, -40, 0, 1
+Point, Polk, -60, 50, 1
+Point, Tyler, -50, 50, 1
+Point, Fillmore, -40, -60, 1
+Point, Buren, -60, -20, 1
+Point, Taylor, -110, 10, 1
+Point, Pierce, 30, 60, 1
+Point, Buchanan, 50, 20, 1
+Point, Lincoln, -20, -30, 1
+Point, Grant, 60, -40, 1
+Point, Hayes, 0, 50, 1
+Point, Garfield, -60, 0, 1
+Point, Arthur, -50, -40, 1
+Point, Cleveland, 40, 30, 1
+Point, Harrison, -100, 20, 1
+Point, Mckinley, 20, -20, 1
+Point, Willson, 60, 40, 1
+Point, Harding, 10, 70, 1
+Route 三田交差点,泉岳寺交差点 1
+Route 三田交差点,大門交差点 1
+Route 大門交差点,月島交差点 2
+Route 門仲交差点,月島交差点 1
+Route Mckinley,月島交差点 2
+Route Mckinley,日比谷交差点 2
+Route 門仲交差点,茅場町交差点 1
+Route 茅場町交差点,日本橋交差点 1
+Route 茅場町交差点,東銀座交差点 1
+Route 東銀座交差点,日本橋交差点 1
+Route 東銀座交差点,銀座交差点 1
+Route 銀座交差点,日本橋交差点 1
+Route 日本橋交差点,人形町交差点 1
+Route 日本橋交差点,大手交差点 1
+Route 三田交差点,Lincoln 1
+Route Lincoln,日比谷交差点 1
+Route 三田交差点,白高交差点 1
+Route 東銀座交差点,大門交差点 1
+Route 大門交差点,Ford 1
+Route Ford,麻布交差点 1
+Route 人形町交差点,茅場町交差点 1
+Route 三越前交差点,日本橋交差点 1
+Route 三越前交差点,Hayes 1
+Route Hayes,上野交差点 1
+Route 三越前交差点,大手交差点 1
+Route 門仲交差点,住吉交差点 1
+Route 住吉交差点,Buchanan 2
+Route Buchanan,森下交差点 2
+Route 森下交差点,清澄交差点 1
+Route 住吉交差点,清澄交差点 1
+Route 清澄交差点,門仲交差点 1
+Route 森下交差点,Jefferson 1
+Route Jefferson,東日本橋交差点 1
+Route 人形町交差点,東日本橋交差点 1
+Route 人形町交差点,岩本町交差点 1
+Route 岩本町交差点,東日本橋交差点 1
+Route 蔵前交差点,Coolidge 2
+Route Coolidge,東日本橋交差点 2
+Route 蔵前交差点,Cleveland 2
+Route Cleveland,森下交差点 2
+Route 押上交差点,Willson 1
+Route Willson,住吉交差点 1
+Route 浅草交差点,押上交差点 1
+Route 浅草交差点,蔵前交差点 1
+Route 岩本町交差点,淡路交差点 1
+Route 岩本町交差点,上野交差点 1
+Route 蔵前交差点,上野交差点 1
+Route 上野交差点,Carter 2
+Route Carter,Pierce 2
+Route Pierce,浅草交差点 2
+Route 大手交差点,淡路交差点 1
+Route 大手交差点,Reagan 2
+Route Reagan,九段下交差点 2
+Route 九段下交差点,神保町交差点 1
+Route 大手交差点,神保町交差点 1
+Route 神保町交差点,淡路交差点 1
+Route 淡路交差点,Harding 4
+Route Harding,北千住交差点 4
+Route 淡路交差点,Truman 1
+Route Truman,本郷交差点 1
+Route 北千住交差点,押上交差点 1
+Route 北千住交差点,上野交差点 1
+Route 上野交差点,本郷交差点 2
+Route 日比谷交差点,銀座交差点 1
+Route 溜山交差点,Taft 2
+Route Hoover,銀座交差点 2
+Route Taft,Hoover, 2
+Route 溜山交差点,麻布交差点 1
+Route 溜山交差点,霞ヶ関交差点 1
+Route 日比谷交差点,霞ヶ関交差点 1
+Route 赤坂交差点,溜山交差点 2
+Route 霞ヶ関交差点,Monroe 2
+Route Monroe,六本木交差点 2
+Route 六本木交差点,麻布交差点 1
+Route 六本木交差点,Arthur 2
+Route Arthur,中目黒交差点 2
+Route 中目黒交差点,六本木交差点 2
+Route 表参道交差点,渋谷交差点 2
+Route 原宿交差点,表参道交差点 2
+Route 原宿交差点,渋谷交差点 1
+Route 溜山交差点,表参道交差点 1
+Route 青山交差点,六本木交差点 1
+Route 青山交差点,Buren 1
+Route Buren,表参道交差点 1
+Route 赤坂交差点,青山交差点 1
+Route 青山交差点,Madison 1
+Route Madison,新宿交差点 1
+Route 原宿交差点,新三交差点 1
+Route 新三交差点,新宿交差点 1
+Route 都庁交差点,新宿交差点 1
+Route 東新宿交差点,新宿交差点 1
+Route 東新宿交差点,新三交差点 1
+Route 赤坂交差点,四谷交差点 2
+Route 赤坂交差点,Jackson 2
+Route Jackson,九段下交差点 2
+Route 市ヶ谷交差点,Nixson 1
+Route Nixson,赤坂交差点 1
+Route 市ヶ谷交差点,Adams 1
+Route Adams,新三交差点 1
+Route 東新宿交差点,飯田橋交差点 1
+Route 飯田橋交差点,市ヶ谷交差点 1
+Route 市ヶ谷交差点,九段下交差点 1
+Route 九段下交差点,飯田橋交差点 1
+Route 池袋交差点,Polk 2
+Route Polk,Tyler 2
+Route Tyler,後楽園交差点 2
+Route 飯田橋交差点,後楽園交差点 1
+Route 後楽園交差点,本郷交差点 2
+Route 麻布交差点,白高交差点 1
+Route 白高交差点,白銀台交差点 1
+Route 白銀台交差点,目黒交差点 1
+Route 池袋交差点,東新宿交差点 1
+Route 池袋交差点,飯田橋交差点 1
+Route 中野交差点,Clinton 1
+Route Clinton,飯田橋交差点 1
+Route 中野交差点,Harrison 1
+Route Harrison,新宿交差点 1
+Route 中野交差点,Taylor 1
+Route Taylor,都庁交差点 1
+Route 四谷交差点,Garfield 1
+Route Garfield,新三交差点 1
+Route 市ヶ谷交差点,四谷交差点 1
+Route 池袋交差点,小竹交差点 1
+Route 小竹交差点,和光交差点 1
+Route 小竹交差点,練馬交差点 1
+Route 練馬交差点,中野交差点 1
+Route 荻窪交差点,中野交差点 1
+Route Eisenhower,Fillmore 1
+Route Fillmore,泉岳寺交差点 1
+Route Johnson,Obama 4
+Route Obama,後楽園交差点 4
+Route Kennedy,大手交差点 1
+Route Kennedy,銀座交差点 1
+Route Bush,大手交差点 1
+Route Bush,日比谷交差点 1
+Route Roosevelt,赤坂交差点 2
+Route Roosevelt,日比谷交差点 2
+Route 清澄交差点,Washington 1
+Route Washington,三越前交差点 1
+Route 月島交差点,Grant 1

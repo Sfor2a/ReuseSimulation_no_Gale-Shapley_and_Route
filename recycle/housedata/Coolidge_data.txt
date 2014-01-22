@@ -1,0 +1,2 @@
+Name Coolidge
+Coin 8000000

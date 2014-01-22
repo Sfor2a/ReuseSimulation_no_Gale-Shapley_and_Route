@@ -1,0 +1,2 @@
+Name Arthur
+Coin 8000000

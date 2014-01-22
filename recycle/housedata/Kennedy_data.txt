@@ -1,0 +1,2 @@
+Name Kennedy
+Coin 8000000

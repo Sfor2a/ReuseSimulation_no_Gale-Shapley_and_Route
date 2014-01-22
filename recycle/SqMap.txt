@@ -1,0 +1,96 @@
+Point, Johnson, 0, 0, 1
+Point, Eisenhower, 500, 0, 1
+Point, Kennedy, 0, 500, 1
+Point, Bush, 500, 500, 1
+Point, Roosevelt, 1000, 0, 1
+Point, Reagan, 1000, 500, 1
+Point, Nixson, 0, 1000, 1
+Point, Taft, 500, 1000, 1
+Point, Hoover, 1000, 1000, 1
+Point, Truman, 1500, 0, 1
+Point, Ford, 1500, 500, 1
+Point, Carter, 1500, 1000, 1
+Point, Clinton, 0, 1500, 1
+Point, Obama, 500, 1500, 1
+Point, Coolidge, 1000, 1500, 1
+Point, Adams, 1500, 1500, 1
+Point, Washington, 2000, 0, 1
+Point, Jefferson, 2000, 500, 1
+Point, Madison, 2000, 1000, 1
+Point, Monroe, 2000, 1500, 1
+Point, Jackson, 2000, 2000, 1
+Point, Polk, 0, 2000, 1
+Point, Tyler, 500, 2000, 1
+Point, Fillmore, 1000, 2000, 1
+Point, Buren, 1500, 2000, 1
+Point, Taylor, 2500, 0, 1
+Point, Pierce, 2500, 500, 1
+Point, Buchanan, 2500, 1000, 1
+Point, Lincoln, 2500, 1500, 1
+Point, Grant, 2500, 2000, 1
+Point, Hayes, 2500, 2500, 1
+Point, Garfield, 0, 2500, 1
+Point, Arthur, 500, 2500, 1
+Point, Cleveland, 1000, 2500, 1
+Point, Harrison, 1500, 2500, 1
+Point, Mckinley, 2000, 2500, 1
+Route Johnson,Eisenhower 1
+Route Eisenhower,Roosevelt 1
+Route Roosevelt,Truman 1
+Route Truman,Washington 1
+Route Washington,Taylor 1
+Route Johnson,Kennedy 1
+Route Eisenhower,Bush 1
+Route Roosevelt,Reagan 1
+Route Ford,Truman 1
+Route Jefferson,Washington 1
+Route Pierce,Taylor 1
+Route Kennedy,Bush 1
+Route Bush,Reagan 1
+Route Reagan,Ford 1
+Route Ford,Jefferson 1
+Route Jefferson,Pierce 1
+Route Kennedy,Nixson 1
+Route Taft,Bush 1
+Route Hoover,Reagan 1
+Route Carter,Ford 1
+Route Madison,Jefferson 1
+Route Buchanan,Pierce 1
+Route Buchanan,Madison 1
+Route Madison,Carter 1
+Route Carter,Hoover 1
+Route Hoover,Taft 1
+Route Taft,Nixson 1
+Route Clinton,Nixson 1
+Route Obama,Taft 1
+Route Coolidge,Hoover 1
+Route Adams,Carter 1
+Route Monroe,Madison 1
+Route Lincoln,Buchanan 1
+Route Lincoln,Monroe 1
+Route Monroe,Adams 1
+Route Adams,Coolidge 1
+Route Coolidge,Obama 1
+Route Obama,Clinton 1
+Route Clinton,Polk 1
+Route Tyler,Obama 1
+Route Fillmore,Coolidge 1
+Route Buren,Adams 1
+Route Jackson,Monroe 1
+Route Grant,Lincoln 1
+Route Grant,Jackson 1
+Route Jackson,Buren 1
+Route Buren,Fillmore 1
+Route Fillmore,Tyler 1
+Route Tyler,Polk 1
+Route Garfield,Polk 1
+Route Tyler,Arthur 1
+Route Fillmore,Cleveland 1
+Route Buren,Harrison 1
+Route Mckinley,Jackson 1
+Route Hayes,Grant 1
+Route Hayes,Mckinley 1
+Route Mckinley,Harrison 1
+Route Harrison,Cleveland 1
+Route Arthur,Cleveland 1
+Route Arthur,Garfield 1

@@ -1,0 +1,2 @@
+Name Mckinley
+Coin 8000000

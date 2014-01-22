@@ -1,0 +1,2 @@
+Name Buren
+Coin 8000000

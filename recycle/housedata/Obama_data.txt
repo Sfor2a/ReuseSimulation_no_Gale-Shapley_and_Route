@@ -1,0 +1,2 @@
+Name Obama
+Coin 8000000

@@ -1,0 +1,2 @@
+Name Ford
+Coin 8000000

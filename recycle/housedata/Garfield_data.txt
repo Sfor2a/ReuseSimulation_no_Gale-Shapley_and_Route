@@ -1,0 +1,2 @@
+Name Garfield
+Coin 8000000

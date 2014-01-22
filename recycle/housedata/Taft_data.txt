@@ -1,0 +1,2 @@
+Name Taft
+Coin 8000000
