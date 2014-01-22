@@ -35,7 +35,7 @@ public class WriteOutData {
 		PrintWriter pw;
 		try {
 			pw = new PrintWriter (new BufferedWriter ( new FileWriter ( file, true ) ) );
-			pw.println ( ",”„‚ê‚½‰Æ‚Ì”," + SellNum+ ",”ƒ‚¦‚½‰Æ‚Ì”," + BuyNum + "," );
+			pw.println ( ",”„‚ê‚½‰Æ‚Ì”," + BuyNum+ ",”ƒ‚¦‚½‰Æ‚Ì”," + BuyNum + "," );
 			pw.println ( ",”ƒ‚¢æ‚è‚·‚é‰Æ,”„‚é‰Æ,‚»‚±‚Ü‚Å‚Ì‹——£,”„”ƒ‰¿Ši," );
 			pw.close();
 		} catch ( IOException e ) {

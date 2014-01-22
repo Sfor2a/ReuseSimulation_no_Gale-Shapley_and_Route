@@ -500,32 +500,39 @@ public class Simulator extends HouseElements {
 	//リユース実行部
 	@SuppressWarnings("unchecked")
 	private void DoReuse ( WriteOutData WOD ) { //リユースを行う
-		System.out.println(getHouseList().get(2).getHAList().size());
 		List < Score > BuyScoreSortor = getScoreList(); //買う側の並び替えようリスト
 		Collections.sort ( BuyScoreSortor, new BuyScoreComparator () ); //買う側のスコアで並び替えする一番よい順
+		Collections.reverse ( BuyScoreSortor );
 		Score ReuseTarget = null;
+		List < Housedata > SellHouseChecker = new ArrayList <> ();
+		List < Housedata > BuyHouseChecker = new ArrayList <> ();
 		for ( int i = 0; i < BuyHouse.size(); i++ ) { //一軒ずつかっていく
 			out: {for ( int j = 0; j < getScoreList().size(); j++ ) { //スコアリストからターゲットを探す
-				if ( getScoreList ().get ( j ).getBuyHouse() == BuyHouse.get(i) ) {
-					ReuseTarget = getScoreList ().get ( j ); //そんざいする一番最初にぶちあたったらそこと容赦なくリユース
+				if ( getScoreList ().get ( j ).getBuyHouse() == BuyHouse.get(i) ) { //ぶちあたる一番よいスコアのときにリユースをおこなう
+					ReuseTarget = getScoreList ().get ( j );
 					int SellHouseNum = getHouseList ().indexOf ( ReuseTarget.getSellHouse () ); //売る家を探す
 					int SellHANum = getHouseList ().get ( SellHouseNum ).getHAList ().indexOf ( ReuseTarget.getSellHA() ); //売却家電を探す
-					if ( SellHANum != -1 ) {
-						getHouseList ().get ( SellHouseNum ).getHAList ().get ( SellHANum ).setUseTernCount ( 0 ); //使用対象が移動するので使用回数をリセット
-						getHouseList ().get ( SellHouseNum ).getHAList ().get( SellHANum ).setExchangecount ( getHouseList ().get ( SellHouseNum ).getHAList ().get( SellHANum ).getExchangecount () + 1 ); //リユース回数を増やす
-						getHouseList ().get( i ).setHAdata( getHouseList ().get ( SellHouseNum ).getHAList ().get( SellHANum ) ); //リユース対象家電を移動
-						getHouseList ().get( SellHouseNum ).getHAList ().remove ( SellHANum ); //移動終了
-						getHouseList ().get( i ).setCoin ( getHouseList ().get( i ).getCoin() - ReuseTarget.getScoreforSell() ); //お金の支払い
-						getHouseList ().get( SellHouseNum ).setCoin ( getHouseList ().get( SellHouseNum ).getCoin() + ReuseTarget.getScoreforSell() ); //お金の受け取り
-						//データ書き出し部
-						WOD.WriteOut( ReuseTarget );
-						break out;
+					if ( SellHouseChecker.indexOf ( ReuseTarget.getSellHouse() ) == -1 && BuyHouseChecker.indexOf ( ReuseTarget.getBuyHouse() ) == -1 ) {
+						if ( SellHANum != -1 ) {
+							getHouseList ().get ( SellHouseNum ).getHAList ().get ( SellHANum ).setUseTernCount ( 0 ); //使用対象が移動するので使用回数をリセット
+							getHouseList ().get ( SellHouseNum ).getHAList ().get( SellHANum ).setExchangecount ( getHouseList ().get ( SellHouseNum ).getHAList ().get( SellHANum ).getExchangecount () + 1 ); //リユース回数を増やす
+							getHouseList ().get( i ).setHAdata( getHouseList ().get ( SellHouseNum ).getHAList ().get( SellHANum ) ); //リユース対象家電を移動
+							getHouseList ().get( SellHouseNum ).getHAList ().remove ( SellHANum ); //移動終了
+							getHouseList ().get( i ).setCoin ( getHouseList ().get( i ).getCoin() - ReuseTarget.getScoreforSell() ); //お金の支払い
+							getHouseList ().get( SellHouseNum ).setCoin ( getHouseList ().get( SellHouseNum ).getCoin() + ReuseTarget.getScoreforSell() ); //お金の受け取り
+							SellHouseChecker.add ( ReuseTarget.getSellHouse() );
+							BuyHouseChecker.add ( ReuseTarget.getBuyHouse() );
+							//データ書き出し部
+							WOD.WriteOut( ReuseTarget );
+							break out;
+						}
 					}
-					
 				}
 			}
 		}
 		}
+		SellHouseChecker.clear();
+		BuyHouseChecker.clear();
 	}
 	//ターン終了処理部
 	private void MinusDurAllHA () { //全ての家電の耐久度を減じ、新たな現在価格を設定し、使用回数を増やす
