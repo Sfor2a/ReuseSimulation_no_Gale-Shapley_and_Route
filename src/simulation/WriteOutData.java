@@ -10,7 +10,7 @@ import java.util.List;
 
 public class WriteOutData {
 	
-	File file = new File ( ".\\recycle\\WriteOut\\WritedOut_data5.csv" ); //書き込むファイル名
+	File file = new File ( ".\\recycle\\WriteOut\\WritedOut_data6.csv" ); //書き込むファイル名
 	List < Integer > StoreScore = new ArrayList <> (); 
 	List < Integer > RankBuyStore = new ArrayList <> (); 
 	List < Integer > RankSellStore = new ArrayList <> (); 

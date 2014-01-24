@@ -529,7 +529,7 @@ public class Simulator extends HouseElements {
 		//スコア作成 （スペック差の割合＊耐久度＊取引価格の割合＊距離）
 		double ValuePercent = ( ( double ) Math.abs( ( ( double ) setSellValue - (double) setBuyCost ) ) / ( double ) setBuyCost );
 		double SpecPercent = ( ( double ) Math.abs ( ( double ) setSellSpec -  ( double )setBuySpec )  / ( double ) setBuySpec );
-		int ScoreBuy = ( int ) ( ( double ) ( 1 / ValuePercent ) + ( double ) ( 1 / SpecPercent ) + /* ( double ) ( 1 / ( double ) Dist )  +*/ ( double ) ( 100 - setSellDur ) ); //買う側の相手へのスコア スコアに距離を含めない
+		int ScoreBuy = ( int ) ( ( double ) ( 1 / ValuePercent ) + ( double ) ( 1 / SpecPercent ) + /* ( double ) ( 1 / ( double ) Dist )  +*/ ( double ) ( setSellDur ) ); //買う側の相手へのスコア スコアに距離を含めない
 		if ( ScoreCheckerBuy.size() == 0 ) {
 			ScoreCheckerBuy.add ( ScoreBuy ); //ダブってるスコアがないように加算する部分　スコアチェッカーが空ならチェッカーに追加
 		}
